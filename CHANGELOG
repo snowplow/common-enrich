@@ -1,0 +1,301 @@
+0.25.0 (2017-06-12)
+-------------------
+Bump to 0.25.0 (snowplow/snowplow#3089)
+Bump scala-iglu-client to 0.5.0 (snowplow/snowplow#3092)
+Remove scala-util (snowplow/snowplow#3054)
+Get rid of deprecated erasure method calls (snowplow/snowplow#3008)
+Bump scalaz to 7.0.9 (snowplow/snowplow#3055)
+Bump scalding-args to 0.13.0 (snowplow/snowplow#3058)
+Bump specs2 to 2.3.13 (snowplow/snowplow#3059)
+Bump scalaz-specs2 to 0.2 (snowplow/snowplow#3060)
+Bump scala-forex to 0.5.0 (snowplow/snowplow#3057)
+Bump sbt to 0.13.13 (closes snowplow/snowplow#3056)
+Bump Scala to 2.11.11 (snowplow/snowplow#3007)
+Add Scala 2.11 cross-building (snowplow/snowplow#3061)
+Make EnrichedEvent Serializable (snowplow/snowplow#3081)
+Fix failing WeatherEnrichmentSpec expectation (snowplow/snowplow#3205)
+Remove ScalazArgs (snowplow/snowplow#3209)
+Upgrade to Java 8 (snowplow/snowplow#3212)
+Add CI/CD (snowplow/snowplow#3216)
+
+0.24.1 (2017-04-27)
+-------------------
+Fix failing WeatherEnrichmentSpec expectation (snowplow/snowplow#3154)
+Bump to 0.24.1 (snowplow/snowplow#3155)
+
+0.24.0 (2016-09-06)
+-------------------
+Bump to 0.24.0 (snowplow/snowplow#2715)
+Add SQL Query Enrichment (snowplow/snowplow#2321)
+Add POST support to IgluAdapter (snowplow/snowplow#1184)
+
+0.23.1 (2016-06-16)
+-------------------
+Bump to 0.23.1 (snowplow/snowplow#2699)
+Bump commons codec to 1.10 (snowplow/snowplow#2691)
+
+0.23.0 (2016-05-12)
+-------------------
+Bumped user-agent-utils version to latest (snowplow/snowplow#2516)
+Transaction item quantity type changed to JInteger (snowplow/snowplow#2157)
+Bumped to 0.23.0 (snowplow/snowplow#2486)
+Improved OWM error if user doesn't have historical weather (snowplow/snowplow#2325)
+Added API Request Enrichment (snowplow/snowplow#2051)
+Bumped Iglu Scala Client to 0.4.0 (snowplow/snowplow#2333)
+Added HTTP Header Extractor Enrichment (snowplow/snowplow#1373)
+
+0.22.0 (2016-03-15)
+-------------------
+Bumped to 0.22.0
+Added handling for bad rows which are too long to print in full (snowplow/snowplow#2419)
+
+0.21.0 (2016-02-28)
+-------------------
+Bumped to 0.21.0
+Fixed exception for invalid API key in currency conversion (snowplow/snowplow#2441)
+Fixed exception on same currency conversion (snowplow/snowplow#2437)
+Switched from javax.script to org.mozilla.javascript for JavaScriptEnrichment (snowplow/snowplow#2453)
+
+0.20.1 (2016-01-26)
+-------------------
+Bumped to 0.20.1
+Now using only base MIME type in content-type check for SendGrid Adapter (snowplow/snowplow#2328)
+
+0.20.0 (2016-01-02)
+-------------------
+Bumped to 0.20.0
+Added JsonLoader for Urban Airship, Mixpanel et al (snowplow/snowplow#2210)
+Added Adapter to pre-process Urban Airship events (snowplow/snowplow#2167)
+Abstracted Mandrill `reformatParameters` function into Adapter (snowplow/snowplow#2171)
+Added Adapter to pre-process SendGrid events (snowplow/snowplow#1161)
+
+0.19.0 (2015-12-22)
+-------------------
+Bumped to 0.19.0
+Added weather enrichment (snowplow/snowplow#456)
+Fixed issue with BC timestamp in ExtractEventTypeSpec (snowplow/snowplow#2257)
+Fixed currency conversion enrichment's test for invalid API key (snowplow/snowplow#2258)
+
+0.18.0 (2015-12-04)
+-------------------
+Bumped Iglu Scala Client to 0.3.1 (snowplow/snowplow#2079)
+Bumped version to 0.18.0
+Moved ScalazArgs into shared library (snowplow/snowplow#2010)
+Removed executable bit from Scala source files (snowplow/snowplow#2022)
+Removed JSON length checks (snowplow/snowplow#2041)
+Removed truncation code (snowplow/snowplow#2044)
+Stopped attempting to catch fatal errors (snowplow/snowplow#2045)
+
+0.17.0 (2015-10-15)
+-------------------
+Bumped to 0.17.0
+Added cookie extractor enrichment, thanks @kazjote! (snowplow/snowplow#2072)
+Converted SnowplowAdapter from object to package (snowplow/snowplow#2040)
+Added Adapter to pre-process URI redirect events (snowplow/snowplow#1103)
+
+0.16.0 (2015-10-02)
+-------------------
+Bumped to 0.16.0
+Added derived_tstamp enrichment (snowplow/snowplow#1550)
+Added validation that v_collector is set (snowplow/snowplow#1600)
+Added validation that collector_tstamp is set and valid (snowplow/snowplow#1611)
+Added event_vendor/name/format/version to enriched event, thanks @danisola! (snowplow/snowplow#1800)
+Ported JSON schema from Scala Hadoop Shred, thanks @danisola! (snowplow/snowplow#1637)
+Bumped referer-parser to 0.3.0 (snowplow/snowplow#1839)
+Changed etl_tstamp in EnrichmentManager from String to Joda DateTime (snowplow/snowplow#1841)
+Added support for four new fields in CloudFront access logs (snowplow/snowplow#1865)
+Bumped user-agent-utils to 1.16 (snowplow/snowplow#1905)
+Changed BadRow class to use ProcessingMessages (snowplow/snowplow#1936)
+Ensured that all timestamp fields are nonnegative (snowplow/snowplow#1938)
+Started catching all exceptions in EtlPipeline (snowplow/snowplow#1954)
+Added event_fingerprint enrichment (snowplow/snowplow#1965)
+Bumped Iglu Scala Client to 0.3.0 (snowplow/snowplow#1989)
+Renamed dvce_tstamp to dvce_created_tstamp (snowplow/snowplow#1995)
+Started extracting true_tstamp from querystring (snowplow/snowplow#1968)
+
+0.15.0 (2015-07-13)
+-------------------
+Bumped to 0.15.0
+Fixed JavascriptScriptEnrichmentSpec test to pass openjdk7 (snowplow/snowplow#1793)
+Bumped scala-maxmind-iplookups to 0.3.0 (snowplow/snowplow#1771)
+Bumped Scala Forex to 0.3.0 (snowplow/snowplow#1770)
+Updated bad rows to include timestamp (snowplow/snowplow#1577)
+
+0.14.0 (2015-06-16)
+-------------------
+Bumped to 0.14.0
+Added JavaScript scripting enrichment (snowplow/snowplow#378)
+Made IpLookupsEnrichment error message more informative (snowplow/snowplow#1426)
+Commons-codec dependency is no longer test-only (snowplow/snowplow#1712)
+Bumped commons-lang3 to 3.4 (snowplow/snowplow#1713)
+Made mkt_ and refr_ fields TSV safe, thanks @jasonbosco! (snowplow/snowplow#1643)
+Updated JodaTime dependency to 2.2 (snowplow/snowplow#1748)
+Now handles null message in stripInstanceEtc (snowplow/snowplow#1622)
+
+0.13.1 (2015-04-16)
+-------------------
+Bumped to 0.13.1
+Prevented UaParserEnrichment from creating a new Parser on every event (snowplow/snowplow#1616)
+
+0.13.0 (2015-04-02)
+-------------------
+Bumped to 0.13.0
+Bumped referer-parser to 0.2.3 (snowplow/snowplow#670)
+Converted transactions from given currency to base currency (snowplow/snowplow#370)
+Bumped CampaignAttributionEnrichment version to 0.2.0 (snowplow/snowplow#1338)
+Added mkt_clickid and mkt_network fields to POJO (snowplow/snowplow#1073)
+Added derived_contexts field to POJO (snowplow/snowplow#787)
+Added geo_timezone field to POJO (snowplow/snowplow#787)
+Added etl_tags field to POJO (snowplow/snowplow#1247)
+Added currency fields to POJO (snowplow/snowplow#1316)
+Changed enrichment configuration to use SchemaCriterion rather than SchemaKey (snowplow/snowplow#1353)
+Extracted original IP address from CollectorPayload headers (snowplow/snowplow#1372)
+Extracted dvce_sent_tstamp from stm field (snowplow/snowplow#1383)
+Added dvce_sent_tstamp to POJO (snowplow/snowplow#1384)
+Added refr_domain_userid and refr_dvce_sent_tstamp to POJO (snowplow/snowplow#1449)
+Added domain_sessionid field to POJO (snowplow/snowplow#1538)
+Added derived_tstamp field to POJO (snowplow/snowplow#1557)
+Populated refr_ fields based on page_url querystring (snowplow/snowplow#1461)
+Populated domain_sessionid field based on "sid" parameter (snowplow/snowplow#1541)
+Parsed the page URI in the EnrichmentManager (snowplow/snowplow#1463)
+Added ua-parser enrichment (snowplow/snowplow#62)
+Added ability to disable user-agent-utils enrichment (snowplow/snowplow#792)
+Used Netaporter to parse querystrings if httpclient fails, thanks @danisola! (snowplow/snowplow#1429)
+
+0.12.0 (2015-03-02)
+-------------------
+Bumped to 0.12.0
+Updated SnowplowAdapter to accept "charset=UTF-8" (snowplow/snowplow#1424)
+Base64 decoding does not specify UTF-8 charset (snowplow/snowplow#1403)
+Removed incorrect extra layer of URL decoding from non-Bas64-encoded JSONs (snowplow/snowplow#1396)
+Added support for ti_nm for transaction item name as well as ti_na (snowplow/snowplow#1401)
+Added CloudfrontAccessLogAdapter (snowplow/snowplow#1282)
+Made timestamp field of CollectorPayload an Option (snowplow/snowplow#1417)
+
+0.11.0 (2015-02-03)
+-------------------
+Bumped to 0.11.0
+Added schema-sniffer-1 and collector-payload-1 dependencies (snowplow/snowplow#1296)
+Bumped user-agent-utils version to 1.14 (snowplow/snowplow#1224)
+Changed EnrichedEvent field name to ip_organization (snowplow/snowplow#1145)
+Changed "thrift" to "thrift-raw" in Loader object (snowplow/snowplow#1302)
+Added tests for getLoader function (snowplow/snowplow#558)
+
+0.10.0 (2014-12-31)
+-------------------
+Bumped to 0.10.0
+Bumped Scala Iglu Client to 0.2.0 (snowplow/snowplow#1222)
+Updated SnowplowAdapter to accept payload_data versions above 1-0-0 (snowplow/snowplow#1220)
+Updated SnowplowAdapter to make charset=utf-8 optional (snowplow/snowplow#1257)
+Added Adapter to pre-process Pingdom events (snowplow/snowplow#1164)
+Added Adapter to pre-process PagerDuty events (snowplow/snowplow#1158)
+Added Adapter to pre-process Mandrill events (snowplow/snowplow#1061)
+
+0.9.1 (2014-12-01)
+------------------
+Bumped to 0.9.1
+Added error handling for Netaporter URI parsing (snowplow/snowplow#1216)
+
+0.9.0 (2014-11-26)
+------------------
+Bumped to 0.9.0
+Added BadRow from Scala Hadoop Enrich (snowplow/snowplow#1118)
+Added ability to override collector-set nuid with tracker-set tnuid (snowplow/snowplow#1095)
+Made URI parsing more permissive using NetAPorter's URI library, thanks @rupeshmane! (snowplow/snowplow#1172)
+
+0.8.0 (2014-11-10)
+------------------
+Bumped to 0.8.0
+Bumped json4s to 3.2.11 (snowplow/snowplow#1141)
+Bumped Scala Iglu Client to 0.1.1 (snowplow/snowplow#1140)
+Removed check that POST request has body and content-type (snowplow/snowplow#1132)
+Moved payload API detection into CollectorApi.parse (snowplow/snowplow#1113)
+Fixed bug in CljTomcatLoader expecting request body to be "_" instead of "-" (snowplow/snowplow#1112)
+Added Adapter to pre-process CallRail events (snowplow/snowplow#1108)
+Added Adapter to pre-process MailChimp events (snowplow/snowplow#1086)
+Added Adapter to pre-process Iglu-compatible events (snowplow/snowplow#1060)
+
+0.7.0 (2014-10-27)
+------------------
+Bumped to 0.7.0
+Bumped scala-maxmind-iplookups to 0.2.0 (snowplow/snowplow#1002)
+Added support for non-GA campaign attribution: phase 1 (snowplow/snowplow#402)
+Rewrote AttributionEnrichments tests as RefererParserEnrichment tests (snowplow/snowplow#974)
+Allow but downcase a-f characters in incoming event_id (snowplow/snowplow#1006)
+Extract useragent from ua parameter (snowplow/snowplow#1011)
+Fixed issue where unset integer fields throw an NPE (snowplow/snowplow#570)
+Fixed issue where unset double fields throw an NPE (snowplow/snowplow#1062)
+Added tests for ConversionUtils.stringToJInteger (snowplow/snowplow#1064)
+Now enforcing Java 7 for compilation (snowplow/snowplow#1065)
+
+0.6.0 (2014-09-18)
+------------------
+Bumped to 0.6.0
+Split out Clojure and CloudFront Collector event processing (snowplow/snowplow#943)
+Added CljTomcatLoaderSpec tests (snowplow/snowplow#963)
+Filtering non-GETs from CloudfrontLoader (snowplow/snowplow#944)
+Replaced all Argonaut code with json4s (snowplow/snowplow#945)
+Renamed CanonicalOutput to EnrichedEvent (snowplow/snowplow#964)
+Replaced CanonicalInput and TrackerPayload with CollectorPayload and RawEvent (snowplow/snowplow#946)
+Updated EnrichmentManager to process RawEvent not CanonicalInput (snowplow/snowplow#903)
+Added Snowplow Tp2 Adapter to convert event JSON to NEL of RawEvents (snowplow/snowplow#904)
+Geo-IP lookup now supports ip parameter on querystring (snowplow/snowplow#961)
+IP address anonymization now works with ip parameter on querystring (snowplow/snowplow#960)
+
+0.5.0 (2014-07-26)
+------------------
+Bumped to 0.5.0
+Bumped user-agent-utils version, thanks @pkallos! (snowplow/snowplow#662)
+Bumped referer-parser to 0.2.2 (snowplow/snowplow#864)
+Bumped httpclient to 4.3.3 (snowplow/snowplow#897)
+Bumped scala-maxmind-geoip to scala-maxmind-iplookups 0.1.0 (snowplow/snowplow#882)
+Stored etl_tstamp in new field in CanonicalOutput (snowplow/snowplow#818)
+Removed event_vendor and ue_name and renamed ue_properties to unstruct_event (snowplow/snowplow#836)
+Made referer parsing configurable with list of internal domains (snowplow/snowplow#857)
+Migrated configurable enrichments to new EnrichmentRegistry (snowplow/snowplow#858)
+Added validation of enrichments JSON (snowplow/snowplow#807)
+Replaced "anon_ip_quartets" with "anon_ip_octets" everywhere (snowplow/snowplow#547)
+Added ability to extract event_id from querystring (snowplow/snowplow#723)
+Extracted CanonicalInput's userId as network_userid, thanks @pkallos! (snowplow/snowplow#855)
+Added MaxMind region_name field (snowplow/snowplow#873)
+Added IP -> ISP lookup (snowplow/snowplow#861)
+Added IP -> organization lookup (snowplow/snowplow#887)
+Added IP -> domain lookup (snowplow/snowplow#886)
+Added IP -> net speed lookup (snowplow/snowplow#889)
+Added validation for transaction ID (snowplow/snowplow#428)
+Renamed Tests to Specs for consistency (snowplow/snowplow#618)
+
+0.4.0 (2014-04-30)
+------------------
+Bumped to 0.4.0
+Upgraded to support new and future CloudFront file formats (snowplow/snowplow#698)
+Bumped SBT to 0.13.2 (snowplow/snowplow#703)
+
+0.3.0 (2014-04-11)
+------------------
+Bumped to 0.3.0
+Bumped Argonaut to 6.0.3 (snowplow/snowplow#620)
+Added app and mob as valid platform codes, thanks @kinabalu! (snowplow/snowplow#524)
+Added support for remaining platform codes (snowplow/snowplow#516)
+Updated POJO in Scalding ETL to include new unstructured fields (snowplow/snowplow#362)
+Updated POJO in Scalding ETL to include name_tracker field (snowplow/snowplow#595)
+Extract evn from Tracker Protocol (snowplow/snowplow#604)
+Extract tna from Tracker Protocol (snowplow/snowplow#616)
+Extract and validate unstructured events (snowplow/snowplow#142)
+Extract and validate custom contexts (snowplow/snowplow#426)
+Reformat incoming event and context JSONs (snowplow/snowplow#589)
+Make sure to error a JSON if > length (snowplow/snowplow#567)
+
+0.2.0 (2014-02-04)
+------------------
+Bumped to 0.2.0
+Added Thrift SnowplowRawEvent as a dependency to common-enrich (snowplow/snowplow#475)
+Added ability to read Thrift SnowplowRawEvent (Thrift) (snowplow/snowplow#462)
+Renamed CloudFront to Cloudfront in code (snowplow/snowplow#495)
+Renamed AnonQuartets to AnonOctets (snowplow/snowplow#491)
+Added raw -> CanonicalInput tests (snowplow/snowplow#484)
+Updated GET payload extraction to handle empty payloads (snowplow/snowplow#502)
+
+0.1.0 (2014-01-07)
+------------------
+Initial release
