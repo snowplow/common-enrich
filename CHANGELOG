@@ -1,3 +1,11 @@
+0.26.0 (2017-10-03)
+-------------------
+Bump to 0.26.0 (snowplow/snowplow#3333)
+Drop Scala 2.10 (snowplow/snowplow#3285)
+Replace akka-http with scalaj (snowplow/snowplow#3330)
+Bump scala-uri to 0.5.0 (snowplow/snowplow#2893)
+Bump scala-weather to 0.3.0 (snowplow/snowplow#3334)
+
 0.25.0 (2017-06-12)
 -------------------
 Bump to 0.25.0 (snowplow/snowplow#3089)
