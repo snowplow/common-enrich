@@ -1,3 +1,8 @@
+0.27.0 (2017-11-13)
+-------------------
+Bump to 0.27.0 (snowplow/snowplow#3429)
+Add support for new field in CloudFront access logs (snowplow/snowplow#2933)
+
 0.26.0 (2017-10-03)
 -------------------
 Bump to 0.26.0 (snowplow/snowplow#3333)
