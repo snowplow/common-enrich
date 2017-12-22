@@ -1,3 +1,23 @@
+0.29.0 (2018-01-05)
+-------------------
+Bump to 0.29.0 (snowplow/snowplow#3552)
+Add validation of tracker-sent timestamps (snowplow/snowplow#336)
+Add validation of collector_tstamp (snowplow/snowplow#3416)
+
+0.28.0 (2017-12-18)
+-------------------
+Add Adapter to pre-process Olark events (snowplow/snowplow#1014)
+Add adapter to pre-process Mailgun webhooks (snowplow/snowplow#2734)
+Add adapter to pre-process Statusgator webhooks (snowplow/snowplow#2169)
+Add adapter to pre-process Unbounce webhooks (snowplow/snowplow#2615)
+Add function to camelCase all JSON fields in Adaptor (snowplow/snowplow#3538)
+Bump user-agent-utils to 1.20 (snowplow/snowplow#2930)
+Default port to 443 if scheme is https (snowplow/snowplow#3483)
+Make enrichments.ExtractEventTypeSpec timezone-safe (snowplow/snowplow#3481)
+Remove toSecond parameter in Adapter (snowplow/snowplow#3534)
+Tolerate content type for GET requests sent to Clojure Collector (snowplow/snowplow#2743)
+Bump to 0.28.0 (snowplow/snowplow#2725)
+
 0.27.0 (2017-11-13)
 -------------------
 Bump to 0.27.0 (snowplow/snowplow#3429)
