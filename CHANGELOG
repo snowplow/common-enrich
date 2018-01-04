@@ -1,3 +1,9 @@
+0.30.0 (2018-01-25)
+-------------------
+Bump to 0.30.0 (snowplow/snowplow#3562)
+Add adapter for Google Analytics (snowplow/snowplow#3560)
+Extend copyright notice to 2018 (snowplow/snowplow#3574)
+
 0.29.0 (2018-01-05)
 -------------------
 Bump to 0.29.0 (snowplow/snowplow#3552)
