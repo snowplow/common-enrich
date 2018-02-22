@@ -1,3 +1,12 @@
+0.31.0 (2018-02-26)
+-------------------
+Add PII Enrichment (snowplow/snowplow#3472)
+Apply automated code formatting (snowplow/snowplow#3532)
+Bump commons-codec to 1.11 (snowplow/snowplow#3638)
+Bump to 0.31.0 (snowplow/snowplow#3598)
+Remove unused version member in Enrichment trait (snowplow/snowplow#3541)
+Use automated code formatting (snowplow/snowplow#3496)
+
 0.30.0 (2018-01-25)
 -------------------
 Bump to 0.30.0 (snowplow/snowplow#3562)
