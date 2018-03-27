@@ -1,3 +1,12 @@
+0.32.0 (2018-04-17)
+-------------------
+Bump to 0.32.0 (snowplow/snowplow#3673)
+Bump scala-maxmind-iplookups to 0.4.0 (snowplow/snowplow#3675)
+Update IP Lookups Enrichment to support non-legacy database (snowplow/snowplow#3672)
+Support extraction of IP addresses in the Forwarded header (snowplow/snowplow#3475)
+Support IPv6 addresses in the IpAddressExtractor (snowplow/snowplow#3474)
+Bump mandrill event versions to 1-0-1 (snowplow/snowplow#3372)
+
 0.31.0 (2018-02-26)
 -------------------
 Add PII Enrichment (snowplow/snowplow#3472)
