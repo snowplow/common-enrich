@@ -1,3 +1,14 @@
+0.33.0 (2018-06-14)
+-------------------
+Add formats as ScalazJson4sUtils.extract as implicit parameter (snowplow/snowplow#3668)
+Add salt to PII Enrichment (snowplow/snowplow#3648)
+Bump to 0.33.0 (snowplow/snowplow#3763)
+Bump user-agent-utils to 1.21 (snowplow/snowplow#3656)
+Extend PII Enrichment to include identification events in EnrichedEvent (snowplow/snowplow#3580)
+Fix platform specific error checking in IpLookupsEnrichmentSpec (snowplow/snowplow#3762)
+Fix unnecessarily-created JSON object as a result of the PII Enrichment (snowplow/snowplow#3636)
+Update WeatherEnrichmentSpec (snowplow/snowplow#3749)
+
 0.32.0 (2018-04-17)
 -------------------
 Bump to 0.32.0 (snowplow/snowplow#3673)
