@@ -1,3 +1,16 @@
+0.35.0 (2018-08-21)
+-------------------
+Bump to 0.35.0 (snowplow/snowplow#3861)
+Externalize ua-parser rule file (snowplow/snowplow#3793)
+Bump ua-parser to 1.4.0 (snowplow/snowplow#3811)
+Make the list of files to cache available from the EnrichmentRegistry (snowplow/snowplow#3789)
+Change Iglu adapter to consider arrays as multiple events (snowplow/snowplow#3858)
+Update CloudfrontAccessLogAdapter to support newer 26 field format (snowplow/snowplow#3816)
+Leverage the x-forwarded-for field in CloudfrontLoader (snowplow/snowplow#2859)
+Handle comma-separated list of ips (snowplow/snowplow#3771)
+Bump SBT Bintray to 0.5.4 (snowplow/snowplow#3840)
+Bump SBT to 1.1.6 (snowplow/snowplow#3839)
+
 0.34.0 (2018-07-17)
 -------------------
 Add adapter to pre-process Marketo webhooks (snowplow/snowplow#2616)
