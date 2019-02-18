@@ -1,3 +1,14 @@
+0.36.0 (2019-02-27)
+-------------------
+Bump to 0.36.0 (snowplow/snowplow#3984)
+Add adapter to pre-process Hubspot webhooks (snowplow/snowplow#3282)
+Change MarketoAdapter's last_interesting_moment_date type to date-time (snowplow/snowplow#3967)
+Bump CallRail's call_complete to 1-0-2 (snowplow/snowplow#2501)
+Support POST requests in API Request enrichment (snowplow/snowplow#3857)
+Warn users of the user-agent-utils enrichment (snowplow/snowplow#3964)
+Disable parallel test execution (snowplow/snowplow#3970)
+Extend copyright notice to 2019 (snowplow/snowplow#3998)
+
 0.35.0 (2018-08-21)
 -------------------
 Bump to 0.35.0 (snowplow/snowplow#3861)
