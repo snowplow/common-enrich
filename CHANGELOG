@@ -1,3 +1,17 @@
+0.37.0 (2019-05-17)
+-------------------
+Bump to 0.37.0 (snowplow/snowplow#4057)
+Make IpAddressExtractor fall back to the Forwarded: for= header as a last resort (snowplow/snowplow#4014)
+Update Sendgrid integration (snowplow/snowplow#4002)
+Add HTTP remote adapter snowplow/snowplow#3760
+Add YAUAA enrichment (snowplow/snowplow#4009)
+Create tutorial for adding an enrichment (snowplow/snowplow#4039)
+Update WeatherEnrichmentSpec (snowplow/snowplow#4073)
+Explore more relaxed URL parsing (snowplow/snowplow#3880)
+Add support to IPs (v4) with port to IP lookup enrichment (snowplow/snowplow#4048)
+Fix incompatibility between IAB enrichment and Iglu Webhook (snowplow/snowplow#3952)
+Skip IAB enrichment for IPs v6 addresses (snowplow/snowplow#4078)
+
 0.36.0 (2019-02-27)
 -------------------
 Bump to 0.36.0 (snowplow/snowplow#3984)
