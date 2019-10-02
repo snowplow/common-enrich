@@ -1,3 +1,10 @@
+0.38.0 (2019-12-03)
+-------------------
+Bump referer-parser to 0.3.1 (snowplow/snowplow#4135)
+Add anonymization for IPv6 (snowplow/snowplow#4222)
+Add additional event fingerprint hashing methods (snowplow/snowplow#4226)
+Bump to 0.38.0 (snowplow/snowplow#4136)
+
 0.37.0 (2019-05-17)
 -------------------
 Bump to 0.37.0 (snowplow/snowplow#4057)
