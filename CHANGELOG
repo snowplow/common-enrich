@@ -1,3 +1,16 @@
+1.1.0 (2020-04-30)
+------------------
+Bump to 1.1.0 (snowplow/snowplow#4294)
+Use recent timestamp for unit tests in WeatherEnrichmentSpec (snowplow/snowplow#4339)
+Change maxColumns to 140 in .scalafmt.conf (snowplow/snowplow#4314)
+Add Snowplow Bintray to resolvers (snowplow/snowplow#4325)
+Return capitalised Unknown value in YAUAA enrichment (snowplow/snowplow#4114)
+Fix abandon assertions in PiiPseudonymizerEnrichmentSpec (snowplow/snowplow#4322)
+Handle query string parameters that don't have a value in IgluAdapter (snowplow/snowplow#4330)
+Bump snowplow-badrows to 1.0.0 (snowplow/snowplow#4292)
+Fix EtlPipeline short-circuiting on a first bad row (snowplow/snowplow#4320)
+Add validation for contexts added by enrichments (snowplow/snowplow#3795)
+
 1.0.0 (2020-01-16)
 ------------------
 Extend copyright notice to 2020 (snowplow/snowplow#4257)
