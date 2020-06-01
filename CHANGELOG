@@ -1,3 +1,13 @@
+1.1.1 (2020-06-01)
+------------------
+Add Sonatype credentials to .travis.yml (#7)
+Add OER_KEY to .travis.yml (#8)
+Add Bintray credentials to .travis.yml (#2)
+Add CI/CD (#4)
+Make ConversionUtils.extractQuerystring return List[(String, Option[String])] (#5)
+Disable weather enrichment unit tests (#6)
+Update README for post-migration (#1)
+
 1.1.0 (2020-04-30)
 ------------------
 Bump to 1.1.0 (snowplow/snowplow#4294)
