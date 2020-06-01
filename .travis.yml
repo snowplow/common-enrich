@@ -1,0 +1,22 @@
+dist: trusty
+language: scala
+scala:
+  - 2.12.10
+jdk:
+  - oraclejdk8
+services:
+  - postgresql
+before_script:
+  - psql -U postgres -c "CREATE USER enricher WITH password 'supersecret1';"
+  - psql -U postgres -c "CREATE DATABASE sql_enrichment_test WITH OWNER = enricher;"
+  - psql -U postgres -d sql_enrichment_test < integration-tests/sql-enrichment-test.sql
+  - psql -U postgres -d sql_enrichment_test -c "GRANT ALL ON enrichment_test TO enricher;"
+script:
+  - python integration-tests/api-lookup-test.py &
+  - sbt test
+deploy:
+  - provider: script
+    script: bash .travis/deploy.sh
+    skip_cleanup: true
+    on:
+      tags: true
