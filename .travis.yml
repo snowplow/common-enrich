@@ -16,7 +16,7 @@ script:
   - sbt test
 deploy:
   - provider: script
-    script: bash .travis/deploy.sh
+    script: bash .travis/deploy.sh $TRAVIS_TAG
     skip_cleanup: true
     on:
       tags: true
