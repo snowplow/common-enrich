@@ -1,3 +1,7 @@
+1.1.2 (2020-06-03)
+------------------
+Use ua query parameter if set (#13)
+
 1.1.1 (2020-06-01)
 ------------------
 Add Sonatype credentials to .travis.yml (#7)
