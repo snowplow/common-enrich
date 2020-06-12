@@ -1,3 +1,8 @@
+1.1.3 (2020-06-12)
+------------------
+Set derived_contexts in the EnrichmentFailures bad row if an enrichment context is invalid (#15)
+Set event user agent before running the enrichments (#16)
+
 1.1.2 (2020-06-03)
 ------------------
 Use ua query parameter if set (#13)
