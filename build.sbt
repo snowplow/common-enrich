@@ -19,7 +19,7 @@ lazy val root = project
   .in(file("."))
   .settings(
     name := "snowplow-common-enrich",
-    version := "1.1.3",
+    version := "1.3.0-M1",
     description := "Common functionality for enriching raw Snowplow events"
   )
   .settings(BuildSettings.formatting)
@@ -40,7 +40,6 @@ lazy val root = project
       Dependencies.Libraries.iabClient,
       Dependencies.Libraries.yauaa,
       Dependencies.Libraries.kryo,
-      Dependencies.Libraries.rhino,
       Dependencies.Libraries.guava,
       // Scala
       Dependencies.Libraries.cats,
