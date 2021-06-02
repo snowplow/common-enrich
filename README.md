@@ -1,3 +1,5 @@
+## Common Enrich has been moved to the [snowplow/enrich](https://github.com/snowplow/enrich) repo, where it is still actively maintained.
+
 # Snowplow Common Enrich
 
 ## Introduction
